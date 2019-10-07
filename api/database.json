@@ -1,0 +1,19 @@
+{
+    "coffees": [
+        {
+            "id": 1,
+            "name": "Cuban"
+        },
+        {
+            "id": 2,
+            "name": "Nitro Cold Brew"
+        },
+        {
+            "id": 3,
+            "name": "Latte"
+        }
+    ],
+    "pastries": [],
+    "employees": [],
+    "stores": []
+}
