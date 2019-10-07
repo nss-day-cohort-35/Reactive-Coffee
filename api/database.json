@@ -1,19 +1,27 @@
 {
-    "coffees": [
-        {
-            "id": 1,
-            "name": "Cuban"
-        },
-        {
-            "id": 2,
-            "name": "Nitro Cold Brew"
-        },
-        {
-            "id": 3,
-            "name": "Latte"
-        }
-    ],
-    "pastries": [],
-    "employees": [],
-    "stores": []
+  "coffees": [
+    {
+      "id": 1,
+      "name": "Cuban"
+    },
+    {
+      "id": 2,
+      "name": "Nitro Cold Brew"
+    },
+    {
+      "id": 3,
+      "name": "Latte"
+    },
+    {
+      "id": 4,
+      "name": "Mocha"
+    },
+    {
+      "id": 5,
+      "name": "Cappuccino"
+    }
+  ],
+  "pastries": [],
+  "employees": [],
+  "stores": []
 }
