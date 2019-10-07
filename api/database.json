@@ -1,25 +1,27 @@
 {
     "coffees": [
-        {
-            "id": 1,
-            "name": "Cuban",
-            "description": "It's good",
-            "price": "2.99"
-        },
-        {
-            "id": 2,
-            "name": "Nitro Cold Brew",
-            "description": "It's crazy",
-            "price": "4.99"
-        },
-        {
-            "id": 3,
-            "name": "Latte",
-            "description": "It's delicious",
-            "price": "3.99"
-        }
+      {
+        "id": 1,
+        "name": "Cuban"
+      },
+      {
+        "id": 2,
+        "name": "Nitro Cold Brew"
+      },
+      {
+        "id": 3,
+        "name": "Latte"
+      },
+      {
+        "id": 4,
+        "name": "Mocha"
+      },
+      {
+        "id": 5,
+        "name": "Cappuccino"
+      }
     ],
     "pastries": [],
     "employees": [],
     "stores": []
-}
+  }
