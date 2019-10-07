@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
-import { Card, CardText, CardTitle, Button } from 'reactstrap';
+import { Card, CardText, Button, CardSubtitle, CardHeader } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class CoffeeCard extends Component {
     render() {
         return (
-            <Card body>
-                <CardTitle>Mocha</CardTitle>
-                <CardText>It's good</CardText>
-                <Button color="primary">Details</Button>
-                <Button color="danger">Delete</Button>
+            <Card className="coffee-card">
+                <CardHeader>
+                    {this.props.coffee.name}
+                </CardHeader>
+                <CardText>{this.props.coffee.description}</CardText>
+                <CardSubtitle>{this.props.coffee.price}</CardSubtitle>
+                <Button className="coffee-btns" color="primary">Details</Button>
+                <Button className="coffee-btns" color="danger">Delete</Button>
             </Card>
         )
     }

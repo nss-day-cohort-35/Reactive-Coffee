@@ -1,0 +1,9 @@
+.coffee-card {
+    margin: 1em;
+    width: 50%;
+}
+
+.coffee-btns {
+    width: 35%;
+    margin: .5em;
+}

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CoffeeCard from './CoffeeCard';
 import APIManager from '../../modules/APIManager';
+import './coffee.css'
 
 class CoffeeList extends Component {
     state = {
